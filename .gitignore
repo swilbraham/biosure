@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# IDE / local Claude config
+.claude/settings.local.json
+
+# Duplicate copies of assets
+* - Copy.*
