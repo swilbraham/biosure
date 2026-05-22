@@ -7,7 +7,7 @@
     <meta name="description" content="Specialist biohazard, trauma & hoarder cleaning across North West England and North Wales. Fully insured. Discreet, 24/7 response. Free assessment — call 0330 043 4811.">
     <meta name="theme-color" content="#0A2240">
     <meta name="robots" content="noindex,nofollow">
-    <link rel="icon" type="image/jpeg" href="logo.jpg">
+    <link rel="icon" type="image/jpeg" href="../logo.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -66,11 +66,8 @@
         /* Nav (minimal — no menu) */
         .nav { background: var(--white); border-bottom: 1px solid var(--gray-200); padding: 14px 0; }
         .nav .container { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-        .logo { display: flex; align-items: center; gap: 12px; }
-        .logo img { width: 44px; height: 44px; border-radius: 8px; object-fit: cover; }
-        .logo-text { display: flex; flex-direction: column; line-height: 1.1; }
-        .logo-text strong { font-size: 1.15rem; color: var(--navy); font-weight: 800; letter-spacing: -0.01em; }
-        .logo-text span { font-size: 0.7rem; color: var(--gray-500); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+        .logo { display: flex; align-items: center; }
+        .logo img { height: 46px; width: auto; display: block; }
         .nav-cta { display: flex; align-items: center; gap: 14px; }
         .nav-phone { color: var(--navy); font-weight: 800; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; }
         .nav-phone svg { width: 18px; height: 18px; color: var(--red); }
@@ -310,7 +307,11 @@
             .service-grid { grid-template-columns: 1fr; }
             .form-row { grid-template-columns: 1fr; }
             .trust-band .container { gap: 18px 28px; }
-            .logo-text span { display: none; }
+            .logo img { height: 36px; }
+            .nav { padding: 10px 0; }
+            .nav .container { gap: 10px; }
+            .nav-cta .btn { padding: 10px 16px; font-size: 0.85rem; }
+            .cta-card { padding: 24px; }
         }
     </style>
 </head>
@@ -332,11 +333,7 @@
 <nav class="nav">
     <div class="container">
         <a href="#" class="logo">
-            <img src="logo.jpg" alt="BioSure">
-            <div class="logo-text">
-                <strong>BioSure</strong>
-                <span>Clean. Safe. Assured.</span>
-            </div>
+            <img src="../logo.jpg" alt="BioSure — Clean. Safe. Assured.">
         </a>
         <div class="nav-cta">
             <a href="tel:03300434811" class="nav-phone">
@@ -369,8 +366,8 @@
             </div>
         </div>
         <div class="hero-visual">
-            <img src="Before-30-1024x1536.jpg" alt="Before cleaning">
-            <img src="During-14-1024x1536 (1).jpg" alt="BioSure technician at work">
+            <img src="../Before-30-1024x1536.jpg" alt="Before cleaning">
+            <img src="../During-14-1024x1536 (1).jpg" alt="BioSure technician at work">
             <div class="hero-rating">
                 <span class="stars">★★★★★</span>
                 <div class="hero-rating-text">
