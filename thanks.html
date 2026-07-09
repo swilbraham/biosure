@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | BioSure</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="theme-color" content="#0A2240">
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --red: #C41E1E;
+            --red-dark: #A01818;
+            --navy: #0A2240;
+            --navy-mid: #0E2D54;
+            --navy-deep: #07192E;
+            --white: #FFFFFF;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(160deg, var(--navy-deep) 0%, var(--navy) 40%, var(--navy-mid) 100%);
+            color: var(--white);
+            min-height: 100vh;
+            display: flex; align-items: center; justify-content: center;
+            padding: 24px; text-align: center;
+        }
+        .card { max-width: 560px; }
+        .card img { height: 60px; width: auto; margin: 0 auto 32px; display: block; border-radius: 8px; }
+        .tick {
+            width: 72px; height: 72px; margin: 0 auto 28px;
+            background: rgba(196,30,30,0.15); border: 2px solid var(--red);
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: var(--red);
+        }
+        h1 { font-size: 2rem; font-weight: 800; margin-bottom: 16px; letter-spacing: -0.02em; }
+        p { color: rgba(255,255,255,0.65); line-height: 1.7; margin-bottom: 12px; }
+        .phone { margin: 28px 0; }
+        .phone a { color: var(--white); font-size: 1.5rem; font-weight: 800; text-decoration: none; }
+        .phone small { display: block; color: rgba(255,255,255,0.5); font-size: 0.82rem; margin-top: 4px; }
+        .btn {
+            display: inline-block; margin-top: 12px; padding: 14px 32px;
+            background: var(--red); color: var(--white); text-decoration: none;
+            border-radius: 50px; font-weight: 700; font-size: 0.95rem;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: var(--red-dark); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="logo.jpg" alt="BioSure">
+        <div class="tick">
+            <svg width="34" height="34" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6L9 17l-5-5"/></svg>
+        </div>
+        <h1>Thank you — we&apos;ve received your enquiry</h1>
+        <p>A member of the BioSure team will be in touch shortly. Everything you&apos;ve told us is handled in complete confidence.</p>
+        <p>If your situation is urgent, don&apos;t wait for a reply — call us now and speak to a real person.</p>
+        <div class="phone">
+            <a href="tel:+443300434811">0330 043 4811</a>
+            <small>Answered 24/7, including bank holidays</small>
+        </div>
+        <a class="btn" href="/">&larr; Back to the website</a>
+    </div>
+</body>
+</html>
