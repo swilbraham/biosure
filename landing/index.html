@@ -541,7 +541,12 @@
                     </div>
                 </div>
             </div>
-            <form class="form" action="#" method="post" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks — we\\'ll be in touch shortly'; this.querySelector('button').disabled=true;">
+            <form class="form" action="https://formsubmit.co/admin@biosure.uk" method="POST">
+                <input type="hidden" name="_subject" value="New enquiry — BioSure ads landing page">
+                <input type="hidden" name="_captcha" value="true">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://www.biosure.uk/thanks.html">
+                <input type="text" name="_honey" style="display:none">
                 <div class="form-row">
                     <div class="field">
                         <label for="name">Your name</label>
