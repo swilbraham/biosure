@@ -275,7 +275,9 @@
         .cta-phone-block small { color: var(--gray-500); font-size: 0.85rem; }
 
         /* Form */
-        .form { display: flex; flex-direction: column; gap: 14px; }
+        .form { display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+        .field { min-width: 0; }
+        .field select { min-width: 0; }
         .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
         .field label {
             display: block; font-size: 0.82rem; font-weight: 700;
